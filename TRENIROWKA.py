@@ -169,3 +169,8 @@ print_number(5)
 
 print_number(num)
 
+
+
+first_name = input()
+last_name = input()
+print("Вас зовут:", last_name, first_name)

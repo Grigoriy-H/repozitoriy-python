@@ -1,3 +1,3 @@
-first_name = input('Григорий')                  #не понимаю как исправить
-last_name = input('Халиманов')
-print('Вас зовут: ' + 'Григорий. ' + 'Халиманов.')
+first_name = input()
+last_name = input()
+print("Вас зовут:", first_name, last_name)
