@@ -121,8 +121,7 @@ def printlocal():
     print(O)
 printlocal()
 
-
-                                            # CТЕК ВЫЗОВОВ
+                                        # CТЕК ВЫЗОВОВ
 
 def funcalA():
     print("Начали выполнять А")
@@ -143,34 +142,25 @@ def funcalD():
     print("Начали выполнять D")
     print("Закончили выполнять D")
 
-funcalA()
-
-def telefon(num): 
-    num = 8803535  
-    print(num)    
-                         
-telefon(num)
-
-
-def print_number(num):
-    print(num, end="")
-
-print_number(8)
-print_number(8)
-print_number(0)
-print_number(0)
-print_number(5)
-print_number(5)
-print_number(5)
-print_number(3)
-print_number(5)
-print_number(3)
-print_number(5)
-
-print_number(num)
-
-
+funcalA()   
 
 first_name = input()
 last_name = input()
 print("Вас зовут:", last_name, first_name)
+
+
+
+
+def print_number(num):
+    print(num, end="")
+print_number(8)
+print_number(8)
+print_number(0)
+print_number(0)
+print_number(5)
+print_number(5)
+print_number(5)
+print_number(3)
+print_number(5)
+print_number(3)
+print_number(5)
